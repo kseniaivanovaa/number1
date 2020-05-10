@@ -1,0 +1,3 @@
+@mixin flexbox(){display: -webkit-box; display: -moz-box; display: -ms-flexbox; display: -webkit-flex; display: flex; font-size: 0; }
+@mixin flexboxinline(){display: -webkit-inline-flex; display: -moz-inline-flex; display: -ms-inline-flex; display: -0-inline-flex; display: inline-flex;}
+@mixin flexorder($val){-webkit-box-original-group: $val; -moz-box-original-group: $val; -ms-flex-order: $val; -webkit-order: $val; order: $val;}
